@@ -10,11 +10,11 @@ const MainLayout = ({ children }) => {
       </div>
       <div className={styles.content}>
         <div className={styles.side}>
-          <h2>Filters:</h2>
+          <h2>login 测试</h2>
           <Link to="/">All</Link><br />
           <Link to="/actived">Actived</Link><br />
           <Link to="/completed">Completed</Link><br />
-          <Link to="/404">404</Link><br />
+         
         </div>
         <div className={styles.main}>
           {children}
